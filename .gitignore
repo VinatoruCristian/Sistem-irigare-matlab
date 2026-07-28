@@ -1,0 +1,32 @@
+# MATLAB autosaves and temporary files
+*.asv
+*.m~
+*.mat~
+*.autosave
+*.log
+
+# Compiled MATLAB/MEX artifacts
+*.mex*
+*.o
+*.obj
+*.pdb
+
+# MATLAB/Simulink generated output
+slprj/
+sccprj/
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+*.slxc
+
+# Windows and OneDrive noise
+desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+~$*
+*.tmp
+
+# macOS metadata, in case the project is opened elsewhere
+.DS_Store
